@@ -1,61 +1,87 @@
 # Membrane: a policy layer for AI memory
 
-Hackathon narration draft. Target roughly 2½–3 minutes, with about 45 seconds for the problem. Final timings will follow the voice recording.
+Restored narration from before the punchy rewrite. The expanded problem section takes approximately 50–55 seconds. Plan for roughly three minutes overall; exact timing will follow the final voice recording. Voice: Microsoft Ava Multilingual Neural, unchanged.
 
 Headings and production notes are not spoken.
 
 ## The memory adoption problem
 
-It’s two a.m. Checkout is failing. Your team shares logs, customer details, and a temporary credential with an AI agent. The agent helps find the fix.
+Membrane is a policy layer for AI memory. Teams hesitate to adopt AI memory when they cannot control what it remembers.
 
-The incident is over. What did your AI remember?
+During an outage, an agent needs detailed context to help the team debug. But that conversation also contains temporary credentials, customer details, and raw request payloads. Information that helps solve today’s incident should not automatically become permanent company memory.
 
-Teams hesitate to adopt AI memory when they cannot control what it remembers. Company policy restricts customer data. Employees have their own preferences. And permission to debug with information is not permission to store it or train on it.
+Company classifications set one boundary. Employee preferences add another. Permission to use information for the current task does not automatically mean permission to remember it or use it for training.
 
-Strip away too much context, and the agent misses clues. Store everything, and sensitive details become lasting memory.
+Remove too much context up front, and the agent becomes less useful. Remember everything, and teams lose control over sensitive information. That uncertainty can keep agents confined to narrow pilots.
 
-Meet Membrane: a policy layer for AI memory. Keep the authorized context for the task. Control what the agent remembers afterwards.
+Membrane keeps the authorized context available for the task, then applies explicit rules to what the agent remembers afterwards.
 
 ## Jev at the memory boundary
 
-Membrane listens before an agent writes to memory. Company policy and employee Markdown files provide the rules.
+Membrane puts Jev at the memory boundary.
 
-In our design, Jev turns the trajectory into structured decisions: what kind of data is this, should it stay, and how confident is the decision?
+A local listener intercepts the trajectory and checks what may reach the classifier. Company policy and employee Markdown files supply the rules.
 
-The hook removes excluded details and prepares useful facts for G Brain. Training requires separate permission.
+Jev returns structured decisions with confidence. Our hook removes excluded spans and prepares clean facts and trajectories for G Brain, with a separate training permission gate.
 
-Let’s see it work.
+Here is the demo.
 
 ## 01 / Use the full context
 
-Checkout errors hit eighteen percent after a deploy. The agent has the full conversation, including the sensitive details. It finds a connection leak. The team rolls back. Checkout recovers.
+Checkout errors jump to eighteen percent after a deploy.
+
+The team shares database traces, customer details, and a temporary debug credential.
+
+The agent finds a connection leak. A rollback restores checkout. None of that working context is removed.
 
 ## 02 / Rules live in Markdown
 
-The rules fit in two Markdown files. The company excludes credentials and customer data. Maya adds one preference: never remember raw request payloads. No settings maze. Just rules the employee can read and edit.
+Company policy excludes credentials and customer data.
+
+Maya adds her own preference: never retain raw request payloads.
+
+These are simple Markdown files. They control what enters lasting memory, separately from the live conversation.
 
 ## 03 / Filter the trajectory automatically
 
-Now watch the trajectory. The hook intercepts context, tool calls, and results before persistence. Five sensitive spans disappear. The diagnosis, rollback, and reusable fix stay. It happens automatically.
+Now follow the agent's execution trace.
+
+Before persistence, the listener applies the rules to context, tool calls, and results.
+
+Five sensitive spans disappear. The pool saturation, diagnosis, rollback, and reusable fix remain.
+
+There is no manual review queue or save button.
 
 ## 04 / Keep the useful lesson
 
-This is what survives: check the pool, inspect retries, roll back, and release connections correctly. The next incident gets the lesson without the previous customer’s details.
+The cleaned incident is available in the demo memory.
+
+Next time, the agent can retrieve the procedure: inspect the pool, check retries, roll back, and release connections correctly.
 
 ## 05 / Retrieval or a training pilot?
 
-When the same procedure keeps repeating, Membrane flags a training candidate. Changing facts stay in retrieval. Repeated procedures may justify a training experiment. Only permitted examples enter the export.
+Across incidents, the same procedures start repeating.
+
+Repeated patterns suggest a training pilot. One-off incidents stay in retrieval.
+
+Only permitted examples enter the export. These are learning signals, not proof that training beats retrieval.
 
 ## 06 / The employee stays in control
 
-Now Maya changes one line: allow training, no. Eligible examples drop to zero. The useful incident memory stays. Permission to remember and permission to train are separate.
+Maya can turn training permission off with one line.
+
+Apply the change, and permitted training examples fall to zero.
+
+The useful incident memory stays. Permission to remember is separate from permission to train.
 
 ## Full context now. Selective memory later.
+
+The rule filtering works locally.
 
 Membrane: a policy layer for AI memory. Full context now. Selective memory later.
 
 ---
 
-Production notes: Pause after “What did your AI remember?” Hold on each visible redaction. Show the training counter reaching zero before the closing line. Keep the same palette, tabs and Ava neural voice throughout. Retain the visible prototype disclosure on the pipeline slide and demo. Local filtering runs; Jev, GBrain dispatch and training remain simulated. The script describes the intended Jev pipeline. Training candidates are suggestions for an experiment, not evidence that training outperforms retrieval. Do not regenerate the video until the script is finalized.
+Production notes: Keep the navy, blue and light background throughout. Use the existing Ava neural voice. Retain the visible prototype disclosure on the pipeline slide and in the demo; it is not part of the voiceover. Local rule filtering runs in the prototype. Jev, GBrain dispatch and training remain simulated. The video has not been regenerated.
 
 Jev reference: https://typesafe.ai/blog/introducing-system-one-models-and-jev

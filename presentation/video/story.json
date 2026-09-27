@@ -11,48 +11,61 @@
     "id": "chat",
     "title": "01 / Use the full context",
     "lines": [
-      "Checkout errors hit eighteen percent after a deploy. The agent has the full conversation, including the sensitive details. It finds a connection leak. The team rolls back. Checkout recovers."
+      "Checkout errors jump to eighteen percent after a deploy.",
+      "The team shares database traces, customer details, and a temporary debug credential.",
+      "The agent finds a connection leak. A rollback restores checkout. None of that working context is removed."
     ]
   },
   {
     "id": "rules",
     "title": "02 / Rules live in Markdown",
     "lines": [
-      "The rules fit in two Markdown files. The company excludes credentials and customer data. Maya adds one preference: never remember raw request payloads. No settings maze. Just rules the employee can read and edit."
+      "Company policy excludes credentials and customer data.",
+      "Maya adds her own preference: never retain raw request payloads.",
+      "These are simple Markdown files. They control what enters lasting memory, separately from the live conversation."
     ]
   },
   {
     "id": "trajectory",
     "title": "03 / Filter the trajectory automatically",
     "lines": [
-      "Now watch the trajectory. The hook intercepts context, tool calls, and results before persistence. Five sensitive spans disappear. The diagnosis, rollback, and reusable fix stay. It happens automatically."
+      "Now follow the agent's execution trace.",
+      "Before persistence, the listener applies the rules to context, tool calls, and results.",
+      "Five sensitive spans disappear. The pool saturation, diagnosis, rollback, and reusable fix remain.",
+      "There is no manual review queue or save button."
     ]
   },
   {
     "id": "memory",
     "title": "04 / Keep the useful lesson",
     "lines": [
-      "This is what survives: check the pool, inspect retries, roll back, and release connections correctly. The next incident gets the lesson without the previous customer’s details."
+      "The cleaned incident is available in the demo memory.",
+      "Next time, the agent can retrieve the procedure: inspect the pool, check retries, roll back, and release connections correctly."
     ]
   },
   {
     "id": "learning",
     "title": "05 / Retrieval or a training pilot?",
     "lines": [
-      "When the same procedure keeps repeating, Membrane flags a training candidate. Changing facts stay in retrieval. Repeated procedures may justify a training experiment. Only permitted examples enter the export."
+      "Across incidents, the same procedures start repeating.",
+      "Repeated patterns suggest a training pilot. One-off incidents stay in retrieval.",
+      "Only permitted examples enter the export. These are learning signals, not proof that training beats retrieval."
     ]
   },
   {
     "id": "consent",
     "title": "06 / The employee stays in control",
     "lines": [
-      "Now Maya changes one line: allow training, no. Eligible examples drop to zero. The useful incident memory stays. Permission to remember and permission to train are separate."
+      "Maya can turn training permission off with one line.",
+      "Apply the change, and permitted training examples fall to zero.",
+      "The useful incident memory stays. Permission to remember is separate from permission to train."
     ]
   },
   {
     "id": "outro",
     "title": "Full context now. Selective memory later.",
     "lines": [
+      "The rule filtering works locally.",
       "Membrane: a policy layer for AI memory. Full context now. Selective memory later."
     ]
   }

@@ -2,7 +2,7 @@
 
 Editable next-video script: [Membrane transcript](video/MEMBRANE-TRANSCRIPT.md). The current video still uses the previous name; regenerate after script edits.
 
-Latest video opening: [two editable slides](video/opening/membrane-opening-v3.pptx) explain the memory adoption problem and the proposed Jev pipeline, followed by the existing ops demo in [video version 3](video/when-and-what-demo-v3.mp4).
+Latest video opening: [two editable slides](video/opening/membrane-opening-v2.pptx) explain the memory adoption problem and the proposed Jev pipeline, followed by the existing ops demo in [video version 3](video/when-and-what-demo-v3.mp4).
 
 - [Final PowerPoint](output/membrane-final.pptx): eight slides with speaker notes, the navy and blue palette, separate incident-chat and trajectory screens, an editable pipeline, and a native chart.
 - [Three-minute speaker script](output/membrane-speaker-script.md): narration, timings and optional live-demo cues.

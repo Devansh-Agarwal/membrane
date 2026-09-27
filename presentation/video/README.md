@@ -71,4 +71,4 @@ The result is `when-and-what-demo-v3.mp4` with `when-and-what-demo-v3.srt`.
 
 Use `MEMBRANE-TRANSCRIPT.md` as the editable source for the next narration. Timestamps currently refer to v3. Preserve `when-and-what-v3-transcript.md` as the exact transcript of the existing cut.
 
-The two opening slides are `opening/membrane-opening-v3.pptx`; the complete deck is `../output/membrane-final.pptx`. UI branding and `title.html` now use Membrane. The MP4 has not been regenerated. After transcript edits, synchronize the spoken paragraphs into the story JSON files, generate narration, and record the updated UI. Do not reuse the v2 demo segment: its baked-in branding and closing voice still say When & What.
+The two opening slides are `opening/membrane-opening-v2.pptx`; the complete deck is `../output/membrane-final.pptx`. UI branding and `title.html` now use Membrane. The MP4 has not been regenerated. After transcript edits, synchronize the spoken paragraphs into the story JSON files, generate narration, and record the updated UI. Do not reuse the v2 demo segment: its baked-in branding and closing voice still say When & What.
