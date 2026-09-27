@@ -1,0 +1,23 @@
+[
+  {
+    "id": "problem",
+    "title": "The memory adoption problem",
+    "lines": [
+      "It’s two a.m. Checkout is failing. Your team shares logs, customer details, and a temporary credential with an AI agent. The agent helps find the fix.",
+      "The incident is over. What did your AI remember?",
+      "Teams hesitate to adopt AI memory when they cannot control what it remembers. Company policy restricts customer data. Employees have their own preferences. And permission to debug with information is not permission to store it or train on it.",
+      "Strip away too much context, and the agent misses clues. Store everything, and sensitive details become lasting memory.",
+      "Meet Membrane: a policy layer for AI memory. Keep the authorized context for the task. Control what the agent remembers afterwards."
+    ]
+  },
+  {
+    "id": "jev-pipeline",
+    "title": "Jev at the memory boundary",
+    "lines": [
+      "Membrane listens before an agent writes to memory. Company policy and employee Markdown files provide the rules.",
+      "In our design, Jev turns the trajectory into structured decisions: what kind of data is this, should it stay, and how confident is the decision?",
+      "The hook removes excluded details and prepares useful facts for G Brain. Training requires separate permission.",
+      "Let’s see it work."
+    ]
+  }
+]

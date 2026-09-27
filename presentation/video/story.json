@@ -1,0 +1,59 @@
+[
+  {
+    "id": "intro",
+    "title": "Remember the fix. Not the secrets.",
+    "lines": [
+      "An outage needs every clue. Company memory doesn't.",
+      "Membrane lets an agent use the full context now, then choose what survives."
+    ]
+  },
+  {
+    "id": "chat",
+    "title": "01 / Use the full context",
+    "lines": [
+      "Checkout errors hit eighteen percent after a deploy. The agent has the full conversation, including the sensitive details. It finds a connection leak. The team rolls back. Checkout recovers."
+    ]
+  },
+  {
+    "id": "rules",
+    "title": "02 / Rules live in Markdown",
+    "lines": [
+      "The rules fit in two Markdown files. The company excludes credentials and customer data. Maya adds one preference: never remember raw request payloads. No settings maze. Just rules the employee can read and edit."
+    ]
+  },
+  {
+    "id": "trajectory",
+    "title": "03 / Filter the trajectory automatically",
+    "lines": [
+      "Now watch the trajectory. The hook intercepts context, tool calls, and results before persistence. Five sensitive spans disappear. The diagnosis, rollback, and reusable fix stay. It happens automatically."
+    ]
+  },
+  {
+    "id": "memory",
+    "title": "04 / Keep the useful lesson",
+    "lines": [
+      "This is what survives: check the pool, inspect retries, roll back, and release connections correctly. The next incident gets the lesson without the previous customer’s details."
+    ]
+  },
+  {
+    "id": "learning",
+    "title": "05 / Retrieval or a training pilot?",
+    "lines": [
+      "When the same procedure keeps repeating, Membrane flags a training candidate. Changing facts stay in retrieval. Repeated procedures may justify a training experiment. Only permitted examples enter the export."
+    ]
+  },
+  {
+    "id": "consent",
+    "title": "06 / The employee stays in control",
+    "lines": [
+      "Now Maya changes one line: allow training, no. Eligible examples drop to zero. The useful incident memory stays. Permission to remember and permission to train are separate."
+    ]
+  },
+  {
+    "id": "outro",
+    "title": "Full context now. Selective memory later.",
+    "lines": [
+      "Membrane: a policy layer for AI memory. Full context now. Selective memory later."
+    ]
+  }
+]

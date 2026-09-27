@@ -1,0 +1,9 @@
+{
+  "name": "when-and-what",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun --no-env-file server/index.ts",
+    "start": "bun --no-env-file server/index.ts"
+  }
+}

@@ -1,0 +1,57 @@
+;FFMETADATA1
+title=When & What — The memory problem, Jev, and the demo
+comment=Synthetic Ava neural narration. Jev classification and GBrain dispatch simulated in the prototype.
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=23096
+title=The memory adoption problem
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=23096
+END=51064
+title=Jev at the memory boundary
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=51064
+END=68107
+title=01 / Use the full context
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=68160
+END=84825
+title=02 / Rules live in Markdown
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=84945
+END=104972
+title=03 / Filter the trajectory automatically
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=105021
+END=117325
+title=04 / Keep the useful lesson
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=117369
+END=134420
+title=05 / Retrieval or a training pilot?
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=134433
+END=147935
+title=06 / The employee stays in control
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=148010
+END=159227
+title=Full context now. Selective memory later.

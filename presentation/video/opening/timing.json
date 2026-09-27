@@ -1,0 +1,96 @@
+[
+  {
+    "id": "problem",
+    "title": "The memory adoption problem",
+    "lines": [
+      "Teams hesitate to adopt AI memory when they cannot control what it keeps.",
+      "A debugging session mixes useful clues with credentials and customer data. Company restrictions and employee preferences overlap.",
+      "Removing too much context weakens the task. Keeping everything creates risk. Retention and training need separate permission."
+    ],
+    "audio": "/Users/devanshagarwal/Documents/ChatGPT/Own your intelligence/presentation/video/opening/problem.mp3",
+    "audioDuration": 21.696,
+    "duration": 23.096,
+    "captions": [
+      {
+        "offset": 0.05,
+        "duration": 4.7833335,
+        "text": "Teams hesitate to adopt AI memory when they cannot control what it keeps."
+      },
+      {
+        "offset": 4.8333335,
+        "duration": 5.0357145,
+        "text": "A debugging session mixes useful clues with credentials and customer data."
+      },
+      {
+        "offset": 9.869048,
+        "duration": 3.9523811,
+        "text": "Company restrictions and employee preferences overlap."
+      },
+      {
+        "offset": 13.8214291,
+        "duration": 2.8095239,
+        "text": "Removing too much context weakens the task."
+      },
+      {
+        "offset": 16.6309531,
+        "duration": 2.2857143,
+        "text": "Keeping everything creates risk."
+      },
+      {
+        "offset": 18.9166675,
+        "duration": 2.7380953,
+        "text": "Retention and training need separate permission."
+      }
+    ]
+  },
+  {
+    "id": "jev-pipeline",
+    "title": "Jev at the memory boundary",
+    "lines": [
+      "Our design puts Jev at the memory boundary.",
+      "A local listener intercepts the trajectory and checks what may reach the classifier. Company policy and employee Markdown files supply the rules.",
+      "Jev returns structured decisions with confidence. Our hook removes excluded spans and prepares clean facts and trajectories for G Brain, with a separate training permission gate.",
+      "This prototype simulates Jev with local rules. Here is the demo."
+    ],
+    "audio": "/Users/devanshagarwal/Documents/ChatGPT/Own your intelligence/presentation/video/opening/jev-pipeline.mp3",
+    "audioDuration": 26.568,
+    "duration": 27.968,
+    "captions": [
+      {
+        "offset": 0.05,
+        "duration": 2.5809525,
+        "text": "Our design puts Jev at the memory boundary."
+      },
+      {
+        "offset": 2.6309525,
+        "duration": 4.809524,
+        "text": "A local listener intercepts the trajectory and checks what may reach the classifier."
+      },
+      {
+        "offset": 7.4404765,
+        "duration": 4.2261906,
+        "text": "Company policy and employee Markdown files supply the rules."
+      },
+      {
+        "offset": 11.6666671,
+        "duration": 3.0714287,
+        "text": "Jev returns structured decisions with confidence."
+      },
+      {
+        "offset": 14.7380959,
+        "duration": 7.4047622,
+        "text": "Our hook removes excluded spans and prepares clean facts and trajectories for GBrain, with a separate training permission gate."
+      },
+      {
+        "offset": 22.1428581,
+        "duration": 3.1190477,
+        "text": "This prototype simulates Jev with local rules."
+      },
+      {
+        "offset": 25.2619059,
+        "duration": 1.25,
+        "text": "Here is the demo."
+      }
+    ]
+  }
+]

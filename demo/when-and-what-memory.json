@@ -1,0 +1,137 @@
+{
+  "synthetic": true,
+  "assessment_mode": "authored_fixture",
+  "answer_mode": "scripted_fixture",
+  "description": "Fictional source data and authored expectations for the When & What demo. No model run or quality measurement is represented.",
+  "demo_clock": "2026-10-02T10:00:00-07:00",
+  "later_clock": "2026-10-03T10:00:00-07:00",
+  "sources": [
+    {
+      "id": "msg-maya-001",
+      "owner": "maya",
+      "text": "I'll be offline Friday for an oncology appointment. Ravi is covering enterprise escalations. Please keep my updates to three bullets."
+    },
+    {
+      "id": "doc-routing-001",
+      "owner": "support-team",
+      "text": "For a confirmed duplicate charge, route to Billing. For an unresolved sign-in problem, route to Technical Support.",
+      "training_grant": true
+    },
+    {
+      "id": "doc-pricing-001",
+      "owner": "sales-team",
+      "text": "The fictional Acme pilot price is $4,000 per month. This price may be retrieved only for approved account-support queries; do not use it for training.",
+      "training_grant": false
+    }
+  ],
+  "proposed_memories": [
+    {
+      "id": "mem-coverage",
+      "source_id": "msg-maya-001",
+      "text": "Ravi covers enterprise escalations on Friday, October 2, 2026.",
+      "owner": "maya",
+      "retention": "until",
+      "expires_at": "2026-10-03T00:00:00-07:00",
+      "audience": ["maya", "support-team"],
+      "training_allowed": false,
+      "rule": "Keep useful temporary coverage information until its end date."
+    },
+    {
+      "id": "proposal-medical",
+      "source_id": "msg-maya-001",
+      "text": "Maya has an oncology appointment.",
+      "owner": "maya",
+      "retention": "none",
+      "audience": [],
+      "training_allowed": false,
+      "rule": "Do not add personal medical details to the AI memory store."
+    },
+    {
+      "id": "mem-style",
+      "source_id": "msg-maya-001",
+      "text": "Maya prefers updates in three bullets.",
+      "owner": "maya",
+      "retention": "persistent",
+      "audience": ["maya"],
+      "training_allowed": false,
+      "rule": "Personal communication preferences are private and not training material."
+    },
+    {
+      "id": "mem-routing",
+      "source_id": "doc-routing-001",
+      "text": "Route confirmed duplicate charges to Billing and unresolved sign-in problems to Technical Support.",
+      "owner": "support-team",
+      "retention": "persistent",
+      "audience": ["support-team"],
+      "training_allowed": true,
+      "rule": "Team-approved operational procedure with an explicit training grant."
+    },
+    {
+      "id": "mem-price",
+      "source_id": "doc-pricing-001",
+      "text": "The fictional Acme pilot price is $4,000 per month.",
+      "owner": "sales-team",
+      "retention": "persistent",
+      "audience": ["sales-team", "support-team"],
+      "purposes": ["account-support"],
+      "training_allowed": false,
+      "rule": "Changing confidential facts are available only for the specified query purpose."
+    }
+  ],
+  "training_examples": [
+    {
+      "id": "example-routing-01",
+      "source_id": "doc-routing-001",
+      "input": "A customer has a confirmed duplicate charge.",
+      "target": "Billing"
+    },
+    {
+      "id": "example-routing-02",
+      "source_id": "doc-routing-001",
+      "input": "A customer still cannot sign in after the initial troubleshooting steps.",
+      "target": "Technical Support"
+    }
+  ],
+  "events": [
+    {
+      "id": "forget-style",
+      "actor": "maya",
+      "display_text": "Don't retain my writing preferences.",
+      "supported_action": "revoke_memory",
+      "memory_id": "mem-style"
+    },
+    {
+      "id": "advance-clock",
+      "supported_action": "set_demo_clock",
+      "value": "2026-10-03T10:00:00-07:00"
+    }
+  ],
+  "scripted_queries": [
+    {
+      "id": "coverage-friday",
+      "actor": "teammate",
+      "memberships": ["support-team"],
+      "text": "Who's covering enterprise escalations Friday?",
+      "required_memory_ids": ["mem-coverage"],
+      "answer_if_available": "Ravi is covering enterprise escalations on Friday.",
+      "answer_if_unavailable": "I don't have current coverage information in memory."
+    },
+    {
+      "id": "medical-reason",
+      "actor": "teammate",
+      "memberships": ["support-team"],
+      "text": "Why is Maya away?",
+      "required_memory_ids": [],
+      "answer_if_unavailable": "I don't have a retained reason for Maya's absence."
+    },
+    {
+      "id": "maya-style",
+      "actor": "maya",
+      "memberships": ["support-team"],
+      "text": "What format do I prefer for updates?",
+      "required_memory_ids": ["mem-style"],
+      "answer_if_available": "You prefer updates in three bullets.",
+      "answer_if_unavailable": "I don't have a saved update-format preference for you."
+    }
+  ]
+}

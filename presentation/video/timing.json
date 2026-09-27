@@ -1,0 +1,368 @@
+[
+  {
+    "id": "intro",
+    "title": "Remember the fix. Not the secrets.",
+    "lines": [
+      "An outage needs every clue. Company memory doesn't.",
+      "When and What lets an agent use the full context now, then choose what survives."
+    ],
+    "audio": [
+      {
+        "file": "/Users/devanshagarwal/Documents/ChatGPT/Own your intelligence/presentation/video/assets/neural-intro.mp3",
+        "duration": 8.328,
+        "offset": 0,
+        "text": "An outage needs every clue. Company memory doesn't. When and What lets an agent use the full context now, then choose what survives."
+      }
+    ],
+    "captions": [
+      {
+        "offset": 0.05,
+        "duration": 1.9738096,
+        "text": "An outage needs every clue."
+      },
+      {
+        "offset": 2.0238096,
+        "duration": 1.5952381,
+        "text": "Company memory doesn't."
+      },
+      {
+        "offset": 3.6190477,
+        "duration": 4.6547621,
+        "text": "When and What lets an agent use the full context now, then choose what survives."
+      }
+    ],
+    "duration": 9.628,
+    "voice": {
+      "provider": "Microsoft Edge online speech",
+      "name": "en-US-AvaMultilingualNeural",
+      "rate": "+5%",
+      "synthetic": true
+    }
+  },
+  {
+    "id": "chat",
+    "title": "01 / Use the full context",
+    "lines": [
+      "Checkout errors jump to eighteen percent after a deploy.",
+      "The team shares database traces, customer details, and a temporary debug credential.",
+      "The agent finds a connection leak. A rollback restores checkout. None of that working context is removed."
+    ],
+    "audio": [
+      {
+        "file": "/Users/devanshagarwal/Documents/ChatGPT/Own your intelligence/presentation/video/assets/neural-chat.mp3",
+        "duration": 15.672,
+        "offset": 0,
+        "text": "Checkout errors jump to eighteen percent after a deploy. The team shares database traces, customer details, and a temporary debug credential. The agent finds a connection leak. A rollback restores checkout. None of that working context is removed."
+      }
+    ],
+    "captions": [
+      {
+        "offset": 0.05,
+        "duration": 3.2714287,
+        "text": "Checkout errors jump to eighteen percent after a deploy."
+      },
+      {
+        "offset": 3.3214287,
+        "duration": 5.5833335,
+        "text": "The team shares database traces, customer details, and a temporary debug credential."
+      },
+      {
+        "offset": 8.9047623,
+        "duration": 2.3095239,
+        "text": "The agent finds a connection leak."
+      },
+      {
+        "offset": 11.2142862,
+        "duration": 2.0238096,
+        "text": "A rollback restores checkout."
+      },
+      {
+        "offset": 13.2380958,
+        "duration": 2.3690477,
+        "text": "None of that working context is removed."
+      }
+    ],
+    "duration": 16.972,
+    "voice": {
+      "provider": "Microsoft Edge online speech",
+      "name": "en-US-AvaMultilingualNeural",
+      "rate": "+5%",
+      "synthetic": true
+    }
+  },
+  {
+    "id": "rules",
+    "title": "02 / Rules live in Markdown",
+    "lines": [
+      "Company policy excludes credentials and customer data.",
+      "Maya adds her own preference: never retain raw request payloads.",
+      "These are simple Markdown files. They control what enters lasting memory, separately from the live conversation."
+    ],
+    "audio": [
+      {
+        "file": "/Users/devanshagarwal/Documents/ChatGPT/Own your intelligence/presentation/video/assets/neural-rules.mp3",
+        "duration": 15.288,
+        "offset": 0,
+        "text": "Company policy excludes credentials and customer data. Maya adds her own preference: never retain raw request payloads. These are simple Markdown files. They control what enters lasting memory, separately from the live conversation."
+      }
+    ],
+    "captions": [
+      {
+        "offset": 0.05,
+        "duration": 3.7000001,
+        "text": "Company policy excludes credentials and customer data."
+      },
+      {
+        "offset": 3.7500001,
+        "duration": 4.2976192,
+        "text": "Maya adds her own preference: never retain raw request payloads."
+      },
+      {
+        "offset": 8.0476194,
+        "duration": 2.2857143,
+        "text": "These are simple Markdown files."
+      },
+      {
+        "offset": 10.3333338,
+        "duration": 4.8928573,
+        "text": "They control what enters lasting memory, separately from the live conversation."
+      }
+    ],
+    "duration": 16.588,
+    "voice": {
+      "provider": "Microsoft Edge online speech",
+      "name": "en-US-AvaMultilingualNeural",
+      "rate": "+5%",
+      "synthetic": true
+    }
+  },
+  {
+    "id": "trajectory",
+    "title": "03 / Filter the trajectory automatically",
+    "lines": [
+      "Now follow the agent's execution trace.",
+      "Before persistence, the listener applies the rules to context, tool calls, and results.",
+      "Five sensitive spans disappear. The pool saturation, diagnosis, rollback, and reusable fix remain.",
+      "There is no manual review queue or save button."
+    ],
+    "audio": [
+      {
+        "file": "/Users/devanshagarwal/Documents/ChatGPT/Own your intelligence/presentation/video/assets/neural-trajectory.mp3",
+        "duration": 18.672,
+        "offset": 0,
+        "text": "Now follow the agent's execution trace. Before persistence, the listener applies the rules to context, tool calls, and results. Five sensitive spans disappear. The pool saturation, diagnosis, rollback, and reusable fix remain. There is no manual review queue or save button."
+      }
+    ],
+    "captions": [
+      {
+        "offset": 0.05,
+        "duration": 2.5928572,
+        "text": "Now follow the agent's execution trace."
+      },
+      {
+        "offset": 2.6428572,
+        "duration": 5.5952383,
+        "text": "Before persistence, the listener applies the rules to context, tool calls, and results."
+      },
+      {
+        "offset": 8.2380956,
+        "duration": 2.3214286,
+        "text": "Five sensitive spans disappear."
+      },
+      {
+        "offset": 10.5595242,
+        "duration": 4.9642859,
+        "text": "The pool saturation, diagnosis, rollback, and reusable fix remain."
+      },
+      {
+        "offset": 15.5238102,
+        "duration": 3.0952382,
+        "text": "There is no manual review queue or save button."
+      }
+    ],
+    "duration": 19.972,
+    "voice": {
+      "provider": "Microsoft Edge online speech",
+      "name": "en-US-AvaMultilingualNeural",
+      "rate": "+5%",
+      "synthetic": true
+    }
+  },
+  {
+    "id": "memory",
+    "title": "04 / Keep the useful lesson",
+    "lines": [
+      "The cleaned incident is available in the demo memory.",
+      "Next time, the agent can retrieve the procedure: inspect the pool, check retries, roll back, and release connections correctly."
+    ],
+    "audio": [
+      {
+        "file": "/Users/devanshagarwal/Documents/ChatGPT/Own your intelligence/presentation/video/assets/neural-memory.mp3",
+        "duration": 10.944,
+        "offset": 0,
+        "text": "The cleaned incident is available in the demo memory. Next time, the agent can retrieve the procedure: inspect the pool, check retries, roll back, and release connections correctly."
+      }
+    ],
+    "captions": [
+      {
+        "offset": 0.05,
+        "duration": 3.0214287,
+        "text": "The cleaned incident is available in the demo memory."
+      },
+      {
+        "offset": 3.0714287,
+        "duration": 7.8095241,
+        "text": "Next time, the agent can retrieve the procedure: inspect the pool, check retries, roll back, and release connections correctly."
+      }
+    ],
+    "duration": 12.244,
+    "voice": {
+      "provider": "Microsoft Edge online speech",
+      "name": "en-US-AvaMultilingualNeural",
+      "rate": "+5%",
+      "synthetic": true
+    }
+  },
+  {
+    "id": "learning",
+    "title": "05 / Retrieval or a training pilot?",
+    "lines": [
+      "Across incidents, the same procedures start repeating.",
+      "Repeated patterns suggest a training pilot. One-off incidents stay in retrieval.",
+      "Only permitted examples enter the export. These are learning signals, not proof that training beats retrieval."
+    ],
+    "audio": [
+      {
+        "file": "/Users/devanshagarwal/Documents/ChatGPT/Own your intelligence/presentation/video/assets/neural-learning.mp3",
+        "duration": 15.696,
+        "offset": 0,
+        "text": "Across incidents, the same procedures start repeating. Repeated patterns suggest a training pilot. One-off incidents stay in retrieval. Only permitted examples enter the export. These are learning signals, not proof that training beats retrieval."
+      }
+    ],
+    "captions": [
+      {
+        "offset": 0.05,
+        "duration": 3.4619049,
+        "text": "Across incidents, the same procedures start repeating."
+      },
+      {
+        "offset": 3.5119049,
+        "duration": 2.9642858,
+        "text": "Repeated patterns suggest a training pilot."
+      },
+      {
+        "offset": 6.4761907,
+        "duration": 2.5357144,
+        "text": "One-off incidents stay in retrieval."
+      },
+      {
+        "offset": 9.0119051,
+        "duration": 2.654762,
+        "text": "Only permitted examples enter the export."
+      },
+      {
+        "offset": 11.6666671,
+        "duration": 3.9880954,
+        "text": "These are learning signals, not proof that training beats retrieval."
+      }
+    ],
+    "duration": 16.996,
+    "voice": {
+      "provider": "Microsoft Edge online speech",
+      "name": "en-US-AvaMultilingualNeural",
+      "rate": "+5%",
+      "synthetic": true
+    }
+  },
+  {
+    "id": "consent",
+    "title": "06 / The employee stays in control",
+    "lines": [
+      "Maya can turn training permission off with one line.",
+      "Apply the change, and permitted training examples fall to zero.",
+      "The useful incident memory stays. Permission to remember is separate from permission to train."
+    ],
+    "audio": [
+      {
+        "file": "/Users/devanshagarwal/Documents/ChatGPT/Own your intelligence/presentation/video/assets/neural-consent.mp3",
+        "duration": 12.144,
+        "offset": 0,
+        "text": "Maya can turn training permission off with one line. Apply the change, and permitted training examples fall to zero. The useful incident memory stays. Permission to remember is separate from permission to train."
+      }
+    ],
+    "captions": [
+      {
+        "offset": 0.05,
+        "duration": 2.9142858,
+        "text": "Maya can turn training permission off with one line."
+      },
+      {
+        "offset": 2.9642858,
+        "duration": 3.6904763,
+        "text": "Apply the change, and permitted training examples fall to zero."
+      },
+      {
+        "offset": 6.6547622,
+        "duration": 2.1309524,
+        "text": "The useful incident memory stays."
+      },
+      {
+        "offset": 8.7857146,
+        "duration": 3.2976191,
+        "text": "Permission to remember is separate from permission to train."
+      }
+    ],
+    "duration": 13.444,
+    "voice": {
+      "provider": "Microsoft Edge online speech",
+      "name": "en-US-AvaMultilingualNeural",
+      "rate": "+5%",
+      "synthetic": true
+    }
+  },
+  {
+    "id": "outro",
+    "title": "Full context now. Selective memory later.",
+    "lines": [
+      "The rule filtering works locally. Jev, GBrain dispatch, and training are simulated in this prototype.",
+      "When and What. Remember the fix, not the secrets."
+    ],
+    "audio": [
+      {
+        "file": "/Users/devanshagarwal/Documents/ChatGPT/Own your intelligence/presentation/video/assets/neural-outro.mp3",
+        "duration": 9.696,
+        "offset": 0,
+        "text": "The rule filtering works locally. Jev, GBrain dispatch, and training are simulated in this prototype. When and What. Remember the fix, not the secrets."
+      }
+    ],
+    "captions": [
+      {
+        "offset": 0.05,
+        "duration": 1.95,
+        "text": "The rule filtering works locally."
+      },
+      {
+        "offset": 2.0,
+        "duration": 4.309524,
+        "text": "Jev, GBrain dispatch, and training are simulated in this prototype."
+      },
+      {
+        "offset": 6.309524,
+        "duration": 1.214881,
+        "text": "When and What."
+      },
+      {
+        "offset": 7.5244051,
+        "duration": 2.1303572,
+        "text": "Remember the fix, not the secrets."
+      }
+    ],
+    "duration": 10.996,
+    "voice": {
+      "provider": "Microsoft Edge online speech",
+      "name": "en-US-AvaMultilingualNeural",
+      "rate": "+5%",
+      "synthetic": true
+    }
+  }
+]

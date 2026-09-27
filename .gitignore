@@ -1,0 +1,16 @@
+.local/
+.env
+.env.*
+!.env.example
+.DS_Store
+
+.playwright-mcp/
+node_modules/
+__pycache__/
+*.pyc
+.chart-data-*/
+
+# Generated presentation intermediates; keep the deck-generation scripts.
+presentation/.*-build/*
+!presentation/.*-build/build.mjs
+presentation/video/assets/

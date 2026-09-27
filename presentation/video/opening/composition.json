@@ -1,0 +1,52 @@
+{
+  "openingDuration": 51.064,
+  "demoTrim": 9.96292025,
+  "expectedDuration": 160.90107975,
+  "chapters": [
+    [
+      0,
+      23.096,
+      "The memory adoption problem"
+    ],
+    [
+      23.096,
+      51.064,
+      "Jev at the memory boundary"
+    ],
+    [
+      51.06400000000001,
+      68.107183084,
+      "01 / Use the full context"
+    ],
+    [
+      68.16003816700001,
+      84.82538341700001,
+      "02 / Rules live in Markdown"
+    ],
+    [
+      84.94491625,
+      104.97199179200001,
+      "03 / Filter the trajectory automatically"
+    ],
+    [
+      105.02131383400001,
+      117.32539854200002,
+      "04 / Keep the useful lesson"
+    ],
+    [
+      117.36890250000002,
+      134.41997945900002,
+      "05 / Retrieval or a training pilot?"
+    ],
+    [
+      134.433385542,
+      147.934515917,
+      "06 / The employee stays in control"
+    ],
+    [
+      148.009900167,
+      159.226735709,
+      "Full context now. Selective memory later."
+    ]
+  ]
+}

@@ -1,0 +1,170 @@
+1
+00:00:00,500 --> 00:00:05,283
+Teams hesitate to adopt AI memory when they cannot control what it keeps.
+
+2
+00:00:05,283 --> 00:00:10,319
+A debugging session mixes useful clues with credentials and customer data.
+
+3
+00:00:10,319 --> 00:00:14,271
+Company restrictions and employee preferences overlap.
+
+4
+00:00:14,271 --> 00:00:17,081
+Removing too much context weakens the task.
+
+5
+00:00:17,081 --> 00:00:19,367
+Keeping everything creates risk.
+
+6
+00:00:19,367 --> 00:00:22,105
+Retention and training need separate permission.
+
+7
+00:00:23,596 --> 00:00:26,177
+Our design puts Jev at the memory boundary.
+
+8
+00:00:26,177 --> 00:00:30,986
+A local listener intercepts the trajectory and checks what may reach the classifier.
+
+9
+00:00:30,986 --> 00:00:35,213
+Company policy and employee Markdown files supply the rules.
+
+10
+00:00:35,213 --> 00:00:38,284
+Jev returns structured decisions with confidence.
+
+11
+00:00:38,284 --> 00:00:45,689
+Our hook removes excluded spans and prepares clean facts and trajectories for GBrain,
+with a separate training permission gate.
+
+12
+00:00:45,689 --> 00:00:48,808
+This prototype simulates Jev with local rules.
+
+13
+00:00:48,808 --> 00:00:50,058
+Here is the demo.
+
+14
+00:00:51,564 --> 00:00:54,835
+Checkout errors jump to eighteen percent after a deploy.
+
+15
+00:00:54,835 --> 00:01:00,419
+The team shares database traces, customer details, and a temporary debug credential.
+
+16
+00:01:00,419 --> 00:01:02,728
+The agent finds a connection leak.
+
+17
+00:01:02,728 --> 00:01:04,752
+A rollback restores checkout.
+
+18
+00:01:04,752 --> 00:01:07,121
+None of that working context is removed.
+
+19
+00:01:08,660 --> 00:01:12,360
+Company policy excludes credentials and customer data.
+
+20
+00:01:12,360 --> 00:01:16,658
+Maya adds her own preference: never retain raw request payloads.
+
+21
+00:01:16,658 --> 00:01:18,943
+These are simple Markdown files.
+
+22
+00:01:18,943 --> 00:01:23,836
+They control what enters lasting memory, separately from the live conversation.
+
+23
+00:01:25,445 --> 00:01:28,038
+Now follow the agent's execution trace.
+
+24
+00:01:28,038 --> 00:01:33,633
+Before persistence, the listener applies the rules to context, tool calls, and
+results.
+
+25
+00:01:33,633 --> 00:01:35,954
+Five sensitive spans disappear.
+
+26
+00:01:35,954 --> 00:01:40,919
+The pool saturation, diagnosis, rollback, and reusable fix remain.
+
+27
+00:01:40,919 --> 00:01:44,014
+There is no manual review queue or save button.
+
+28
+00:01:45,521 --> 00:01:48,543
+The cleaned incident is available in the demo memory.
+
+29
+00:01:48,543 --> 00:01:56,352
+Next time, the agent can retrieve the procedure: inspect the pool, check retries, roll
+back, and release connections correctly.
+
+30
+00:01:57,869 --> 00:02:01,331
+Across incidents, the same procedures start repeating.
+
+31
+00:02:01,331 --> 00:02:04,295
+Repeated patterns suggest a training pilot.
+
+32
+00:02:04,295 --> 00:02:06,831
+One-off incidents stay in retrieval.
+
+33
+00:02:06,831 --> 00:02:09,486
+Only permitted examples enter the export.
+
+34
+00:02:09,486 --> 00:02:13,474
+These are learning signals, not proof that training beats retrieval.
+
+35
+00:02:14,933 --> 00:02:17,848
+Maya can turn training permission off with one line.
+
+36
+00:02:17,848 --> 00:02:21,538
+Apply the change, and permitted training examples fall to zero.
+
+37
+00:02:21,538 --> 00:02:23,669
+The useful incident memory stays.
+
+38
+00:02:23,669 --> 00:02:26,967
+Permission to remember is separate from permission to train.
+
+39
+00:02:28,510 --> 00:02:30,460
+The rule filtering works locally.
+
+40
+00:02:30,460 --> 00:02:34,769
+Jev, GBrain dispatch, and training are simulated in this prototype.
+
+41
+00:02:34,769 --> 00:02:35,984
+When and What.
+
+42
+00:02:35,984 --> 00:02:38,115
+Remember the fix, not the secrets.

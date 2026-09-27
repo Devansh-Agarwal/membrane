@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+if [[ ! -d "$ROOT/.local/gbrain/node_modules" ]]; then
+  echo "GBrain dependencies are missing. See GBRAIN-SETUP.md." >&2
+  exit 1
+fi
+
+# Keep this demo's database and provider configuration separate from other brains.
+export GBRAIN_HOME="$ROOT/.local/brain-home"
+export GBRAIN_BRAIN_ID=host
+export GBRAIN_SOURCE=default
+export GBRAIN_NO_AUTOPILOT_INSTALL=1
+export GBRAIN_NO_REEMBED=1
+unset GBRAIN_DATABASE_URL DATABASE_URL
+unset OPENAI_API_KEY ANTHROPIC_API_KEY VOYAGE_API_KEY OPENROUTER_API_KEY
+unset GOOGLE_GENERATIVE_AI_API_KEY GEMINI_API_KEY AZURE_OPENAI_API_KEY
+unset DASHSCOPE_API_KEY DEEPSEEK_API_KEY LITELLM_API_KEY TOGETHER_API_KEY XAI_API_KEY
+
+# Bun normally loads .env automatically; this initial demo is deliberately keyless.
+exec bun --no-env-file "$ROOT/.local/gbrain/src/cli.ts" "$@"

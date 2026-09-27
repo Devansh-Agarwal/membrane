@@ -1,0 +1,16 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,30,&H00FFFFFF,&H00FFFFFF,&H001A1020,&H001A1020,0,0,0,0,100,100,0,0,1,0,0,2,120,120,27,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:05.28,Default,,0,0,0,,Teams hesitate to adopt AI memory when they cannot control what it keeps.
+Dialogue: 0,0:00:05.28,0:00:10.32,Default,,0,0,0,,A debugging session mixes useful clues with credentials and customer data.
+Dialogue: 0,0:00:10.32,0:00:14.27,Default,,0,0,0,,Company restrictions and employee preferences overlap.
+Dialogue: 0,0:00:14.27,0:00:17.08,Default,,0,0,0,,Removing too much context weakens the task.
+Dialogue: 0,0:00:17.08,0:00:19.37,Default,,0,0,0,,Keeping everything creates risk.
+Dialogue: 0,0:00:19.37,0:00:22.10,Default,,0,0,0,,Retention and training need separate permission.

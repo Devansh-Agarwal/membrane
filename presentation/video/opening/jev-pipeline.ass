@@ -1,0 +1,17 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,30,&H00FFFFFF,&H00FFFFFF,&H001A1020,&H001A1020,0,0,0,0,100,100,0,0,1,0,0,2,120,120,27,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.50,0:00:03.08,Default,,0,0,0,,Our design puts Jev at the memory boundary.
+Dialogue: 0,0:00:03.08,0:00:07.89,Default,,0,0,0,,A local listener intercepts the trajectory and checks what may reach the classifier.
+Dialogue: 0,0:00:07.89,0:00:12.12,Default,,0,0,0,,Company policy and employee Markdown files supply the rules.
+Dialogue: 0,0:00:12.12,0:00:15.19,Default,,0,0,0,,Jev returns structured decisions with confidence.
+Dialogue: 0,0:00:15.19,0:00:22.59,Default,,0,0,0,,Our hook removes excluded spans and prepares clean facts and trajectories for GBrain,\Nwith a separate training permission gate.
+Dialogue: 0,0:00:22.59,0:00:25.71,Default,,0,0,0,,This prototype simulates Jev with local rules.
+Dialogue: 0,0:00:25.71,0:00:26.96,Default,,0,0,0,,Here is the demo.
