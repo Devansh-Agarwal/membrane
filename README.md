@@ -16,6 +16,13 @@ Open **http://127.0.0.1:4310**. The demo has no package dependencies and require
 
 See the [presentation and demo video](presentation/README.md) for shareable project materials.
 
+## Live Jev experiment
+
+Open **http://127.0.0.1:4310/jev** after starting the server, or run `bun run experiment:jev`.
+This opt-in experiment compares the local filter with live Jev on twelve synthetic examples. Set `TYPESAFE_API_KEY` in the server environment or store the key in the ignored `.local/jev-api-key` file. Keys stay on the server. No memory writes or training jobs run.
+
+See [the Jev experiment notes](JEV-EXPERIMENT.md) for measured results, limits, and the `--jev` memory-hook integration. Run offline checks with `bun test`.
+
 ## Project notes
 
 Current demo: an ops incident replay that keeps diagnoses and fixes while filtering credentials, customer details, and raw debug payloads. The Markdown memory hook is at `/hook`. Run `bun run dev` and open http://127.0.0.1:4310. See [the demo guide](DEMO.md).

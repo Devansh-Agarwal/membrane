@@ -4,6 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "bun --no-env-file server/index.ts",
-    "start": "bun --no-env-file server/index.ts"
+    "start": "bun --no-env-file server/index.ts",
+    "experiment:jev": "bun --no-env-file scripts/jev-experiment.ts",
+    "test": "bun test"
   }
 }
